@@ -9,6 +9,16 @@
   --window-color4: #8cb3d9;
 }
 
+header {
+    background-color: #0e1f6b;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
 * {
   box-sizing: border-box;
 }
