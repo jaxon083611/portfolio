@@ -19,7 +19,6 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: var(--dark-grey);
 }
 
 h1 {
@@ -32,6 +31,7 @@ h1 {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color:black
 }
 
 input,
