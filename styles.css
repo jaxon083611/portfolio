@@ -1,16 +1,17 @@
-header footer {
-    background-color: #0e1f6b;
-    color: white;
+header, footer {
+    background-color: #2b0f79;
+    color: whitesmoke;
     padding: 10px 20px;
     display: flex;
     align-items: center;
     gap: 4rem;
     flex-wrap: wrap;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #8b6fd7;
-    color: whitesmoke;
+    background-color: #647ff9;
+    color: black;
 }
