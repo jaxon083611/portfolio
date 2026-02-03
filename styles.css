@@ -1,17 +1,39 @@
 header, footer {
     background-color: #2b0f79;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     padding: 10px 20px;
     display: flex;
     align-items: center;
     gap: 4rem;
     flex-wrap: wrap;
+    height: 50px
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #647ff9;
-    color: black;
+    background-color: #393939;
+    color: rgb(255, 255, 255);
+}
+nav button {
+    background-color: #2b0f79;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;    
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: rgb(192, 192, 192);
 }
