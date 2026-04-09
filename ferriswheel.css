@@ -100,3 +100,39 @@
     transform: rotate(-360deg);
   }
 }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav button {
+    background-color: #2b0f79;
+    border: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
