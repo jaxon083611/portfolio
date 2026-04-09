@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<header>
+      <nav>
+        <button><a href="index.html">Home</a></button>
+        <button><a href="about me.html">About me</a></button>
+        <button><a href="ferriswheel.html">Ferris Wheel</a></button>
+        <button><a href="penguin.html">Penguin</a></button>
+        <button><a href="recipe.html">Recipe</a></button>
+        <button> <a href="clock.html"> Clock</a></button>
+      </nav>
+</header>
+<br>
+
+<body>
+    <div class="customizer" id="customizer">
+        <button id="customizer-toggle" class="customizer-toggle">Customizer ▾</button>
+        <div class="customizer-menu">
+            <div class="customizer-row">
+                <label>
+                    Background
+                    <select id="background-select">
+                        <option value="black">Black</option>
+                        <option value="midnightblue">Midnight Blue</option>
+                        <option value="#1a1a1a">Charcoal</option>
+                        <option value="#0a3d62">Deep Teal</option>
+                        <option value="#2c3e50">Slate</option>
+                        <option value="#1b3b52">Navy</option>
+                        <option value="#134e4a">Forest Green</option>
+                        <option value="#6d214f">Eggplant</option>
+                        <option value="#5a5c69">Steel Gray</option>
+                    </select>
+                </label>
+                <label>
+                    Clock Interface
+                    <select id="clock-select">
+                        <option value="darkblue">Dark Blue</option>
+                        <option value="#34495e">Slate Gray</option>
+                        <option value="#16a085">Teal</option>
+                        <option value="#8e44ad">Purple</option>
+                        <option value="#c0392b">Crimson</option>
+                        <option value="#0f766e">Forest Green</option>
+                        <option value="#0f172a">Midnight</option>
+                        <option value="#2563eb">Royal Blue</option>
+                        <option value="#e11d48">Magenta</option>
+                        <option value="#f59e0b">Amber</option>
+                    </select>
+                </label>
+            </div>
+            <div class="customizer-row customizer-row-full">
+                <label>
+                    Gradient Background
+                    <select id="gradient-select">
+                        <option value="none">None</option>
+                        <option value="gradient-blue-purple">Aurora</option>
+                        <option value="gradient-purple-pink">Twilight</option>
+                        <option value="gradient-teal-blue">Ocean Breeze</option>
+                        <option value="gradient-sunset">Sunset</option>
+                        <option value="gradient-green-aqua">Emerald Stream</option>
+                        <option value="gradient-berry-navy">Berry Night</option>
+                        <option value="gradient-gold-red">Sunflare</option>
+                        <option value="gradient-ice-sky">Crystal Sky</option>
+                        <option value="gradient-coral-orange">Coral Glow</option>
+                    </select>
+                </label>
+                <br>
+                <div id="controls" class="controls">
+                    <label class="control-checkbox">
+                        <input type="checkbox" id="toggle-military">
+                        <span id="toggle-military-label">Use 24-hour time</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox" id="toggle-seconds" checked>
+                        <span id="toggle-seconds-label">Hide seconds</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox" id="toggle-milliseconds" checked>
+                        <span id="toggle-milliseconds-label">Hide milliseconds</span>
+                    </label>
+                    <label class="control-checkbox">
+                        <input type="checkbox" id="toggle-fullscreen">
+                        <span id="toggle-fullscreen-label">Enter fullscreen</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page">
+        <div class="clock">
+            <div id="weekday-container">
+                <p id="weekday">Mon</p>
+            </div>
+            <div id="clock-container">
+                <p id="time">00:00:00</p>
+            </div>
+            <div id="date-container">
+                <p id="date">mm/dd/yyyy</p>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+    <script src="clock.js"></script>
+</body>
+</html>
